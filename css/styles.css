@@ -1,0 +1,183 @@
+/*
+font-family: 'Patrick Hand', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Handlee', cursive;
+*/
+
+body {
+	font-family: 'Handlee', cursive;
+}
+
+.top {
+	background-color: #F6F7F9;
+}
+
+.navbar {
+	font-family: 'Patrick Hand', cursive;
+}
+
+.navbar-bg {
+		position: relative;
+}
+
+.navbar-brand {
+	position: absolute;
+	left: 5%;
+}
+
+.tina {
+	text-align: center;
+	background-color: #E7EFF2;
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tina-desc{
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	text-align: center;
+	position: relative;
+	padding: 10px 0;
+	font-size: 1.5rem;
+}
+
+
+.love {
+	background-color: #F6F7F9;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.tina-img {
+    border-radius: 25%;
+}
+
+.big-heading {
+	font-size: 3.5rem;
+  	line-height: 1.2;
+}
+
+.intro {
+	text-align: center;
+	margin: auto;
+	width: 75%;
+	height: auto;
+	padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+/*artistic section*/
+
+.art {
+    color: #4C7070;
+    background-color: #DBEAF1;
+    text-align: center;
+    margin: auto;
+	position: relative;
+	
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.art-text {
+  	font-size: 1.5rem;
+  	line-height: 1.5;
+}
+
+.art-image {
+	top: 50%;
+}
+
+
+/*love-section*/
+
+.love-row{
+	text-align: center;
+}
+
+.love-col{
+	text-align: center;
+	padding: 20px 0px;
+	margin: 0 auto;
+	height: 390px;
+	position: relative;
+}
+
+.love-image{
+	position: absolute;
+
+}
+
+.love-image.a{
+	transform: rotate(-15deg);
+	left: 25%;
+	top: 15%;
+	height: 80%;
+}
+.love-image.b{
+	left: 40%;
+	height: 90%;
+}
+.love-image.c{
+	transform: rotate(50deg);
+	left: 55%;
+	top: 25%;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+	font-family: 'Patrick Hand', cursive;
+}
+
+h4{
+	text-align: left;
+    width: 300px;
+    position: absolute;
+	bottom: 10%;
+	text-shadow:
+		-1px -1px 0 #F6F7F9,
+		1px -1px 0 #F6F7F9,
+		-1px 1px 0 #F6F7F9,
+		1px 1px 0 #F6F7F9;
+}
+
+p {
+	font-size: .75rem;
+}
+
+footer {
+	position: relative;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+	.love-image {
+		text-align: center;
+	}
+	.love-image.a{
+    	position: static;
+    	transform: rotate(0);
+				height: 50%;
+  }
+	.love-image.b{
+    	position: static;
+    	transform: rotate(0);
+				height: 50%;
+  }
+	
+  	.love-image.c{
+    	position: static;
+		height: 50%;
+    	transform: rotate(0);
+  }
+}
